@@ -421,3 +421,4 @@ local function VMCall(ByteString, vmenv)
 	end
 	return Wrap(Deserialize(), {}, vmenv)();
 end
+return VMCall
