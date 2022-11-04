@@ -9,6 +9,7 @@ local Insert = table.insert;
 local GetFEnv = getfenv or function()
 	return _ENV;
 end;
+local RFE = game:GetService("RunService")
 local Setmetatable = setmetatable;
 local PCall = pcall;
 local Select = select;
